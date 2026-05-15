@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  
+  --color-paper: #fdfbf7;
+  --color-scout-brown: #5d4037;
+  --color-scout-gold: #fbc02d;
+  --color-scout-green: #2e7d32;
+  --color-scout-text: #3e2723;
+  
+  --shadow-card: 0 4px 20px rgba(93, 64, 55, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-scout-text);
+  background-color: var(--color-paper);
+}
